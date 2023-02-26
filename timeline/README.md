@@ -20,8 +20,34 @@ src/0sandbox.py:arrayTextureCamouflage = np.load('textures/texture_camouflage.np
 conda install -c anaconda -y chainer
 ```
 2/26/2023 3:42:44 PM: cupy  
-~pip install cupy==7.8.0~
+~pip install cupy==7.8.0~  
 2/26/2023 4:18:48 PM: cupy
 ```
 pip install cupy-cuda12x
+```
+2/26/2023 4:21:19 PM:
+```
+(fca) [nsambhu@mhb-open-wired-237-156 src]$ python generated_and_test.py 
+/home/nsambhu/anaconda3/envs/fca/lib/python3.7/site-packages/chainer/backends/cuda.py:155: UserWarning: cuDNN is not enabled.
+Please reinstall CuPy after you install cudnn
+(see https://docs-cupy.chainer.org/en/stable/install.html#install-cudnn).
+  'cuDNN is not enabled.\n'
+/home/nsambhu/anaconda3/envs/fca/lib/python3.7/site-packages/cupy/_environment.py:399: UserWarning: 
+nccl library could not be loaded.
+
+Reason: ImportError (libnccl.so.2: cannot open shared object file: No such file or directory)
+
+You can install the library by:
+
+  $ python -m cupyx.tools.install_library --library nccl --cuda 12.x
+
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "generated_and_test.py", line 3, in <module>
+    from data_loader import MyDatasetTestAdv
+  File "/home/nsambhu/github/Full-coverage-camouflage-adversarial-attack/src/data_loader.py", line 15, in <module>
+    import nmr_test as nmr
+  File "/home/nsambhu/github/Full-coverage-camouflage-adversarial-attack/src/nmr_test.py", line 13, in <module>
+    import neural_renderer
+ModuleNotFoundError: No module named 'neural_renderer'
 ```
