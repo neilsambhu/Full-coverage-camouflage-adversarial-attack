@@ -64,3 +64,7 @@ pip install -r requirements.txt
 ```
 pip install cupy-cuda12x
 ```
+2/26/2023 4:50:24 PM: chainer
+```
+conda install -c anaconda -y chainer
+```
