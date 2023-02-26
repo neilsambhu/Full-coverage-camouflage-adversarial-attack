@@ -15,9 +15,11 @@ src/generated_and_test.py:parser.add_argument("--textures", type=str, default='t
 src/0sandbox.py:arrayTextureCamouflage = np.load('textures/texture_camouflage.npy')
 ```
 2/26/2023 3:27:15 PM: missing installation
-```
-conda install -c anaconda -y 'cupy>=7.7.0,<8.0.0'
-```
+~conda install -c anaconda -y 'cupy>=7.7.0,<8.0.0'~
 ```
 conda install -c anaconda -y chainer
+```
+2/26/2023 3:42:44 PM: cupy
+```
+pip install cupy==7.8.0
 ```
