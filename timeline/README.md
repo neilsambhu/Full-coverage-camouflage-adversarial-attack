@@ -17,4 +17,5 @@ src/0sandbox.py:arrayTextureCamouflage = np.load('textures/texture_camouflage.np
 2/26/2023 3:27:15 PM: missing installation
 ```
 conda install -c anaconda cupy
+conda install -c anaconda -y chainer
 ```
