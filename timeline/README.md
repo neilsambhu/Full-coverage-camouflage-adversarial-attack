@@ -55,3 +55,11 @@ ModuleNotFoundError: No module named 'neural_renderer'
 ```
 python -m cupyx.tools.install_library --library nccl --cuda 12.x
 ```
+## delete and create environment
+2/26/2023 4:33:30 PM: environment setup
+```
+pip install -r requirements.txt
+```
+```
+pip install cupy
+```
