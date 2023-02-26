@@ -19,7 +19,9 @@ src/0sandbox.py:arrayTextureCamouflage = np.load('textures/texture_camouflage.np
 ```
 conda install -c anaconda -y chainer
 ```
-2/26/2023 3:42:44 PM: cupy
+2/26/2023 3:42:44 PM: cupy  
+~pip install cupy==7.8.0~
+2/26/2023 4:18:48 PM: cupy
 ```
-pip install cupy==7.8.0
+pip install cupy-cuda12x
 ```
