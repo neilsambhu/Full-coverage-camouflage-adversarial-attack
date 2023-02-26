@@ -14,7 +14,7 @@ Binary file .git/index matches
 src/generated_and_test.py:parser.add_argument("--textures", type=str, default='textures/texture_camouflage.npy')
 src/0sandbox.py:arrayTextureCamouflage = np.load('textures/texture_camouflage.npy')
 ```
-2/26/2023 3:27:15 PM: missing installation
+2/26/2023 3:27:15 PM: missing installation  
 ~conda install -c anaconda -y 'cupy>=7.7.0,<8.0.0'~
 ```
 conda install -c anaconda -y chainer
