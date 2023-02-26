@@ -25,7 +25,7 @@ conda install -c anaconda -y chainer
 ```
 pip install cupy-cuda12x
 ```
-2/26/2023 4:21:19 PM:
+2/26/2023 4:21:19 PM: cupy error
 ```
 (fca) [nsambhu@mhb-open-wired-237-156 src]$ python generated_and_test.py 
 /home/nsambhu/anaconda3/envs/fca/lib/python3.7/site-packages/chainer/backends/cuda.py:155: UserWarning: cuDNN is not enabled.
@@ -50,4 +50,8 @@ Traceback (most recent call last):
   File "/home/nsambhu/github/Full-coverage-camouflage-adversarial-attack/src/nmr_test.py", line 13, in <module>
     import neural_renderer
 ModuleNotFoundError: No module named 'neural_renderer'
+```
+2/26/2023 4:25:39 PM: 
+```
+python -m cupyx.tools.install_library --library nccl --cuda 12.x
 ```
