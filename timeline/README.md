@@ -60,6 +60,7 @@ python -m cupyx.tools.install_library --library nccl --cuda 12.x
 ```
 pip install -r requirements.txt
 ```
+~pip install cupy~
 ```
-pip install cupy
+pip install cupy-cuda12x
 ```
