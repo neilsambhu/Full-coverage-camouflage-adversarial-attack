@@ -4,3 +4,7 @@
 ```
 arrayTextureCamouflage.shape: (1, 23145, 6, 6, 6, 3)
 ```
+2/26/2023 3:17:43 PM: code references
+```
+grep -r --exclude *README.md --exclude outgrep.txt -e "texture_camouflage.npy">outgrep.txt
+```
