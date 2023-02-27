@@ -93,3 +93,4 @@ pip install chainer
 ```
 pip install typing_extensions
 ```
+2/27/2023 3:20:54 PM: TODO: create anaconda environment from scratch and try again
