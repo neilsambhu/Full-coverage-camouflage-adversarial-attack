@@ -89,3 +89,7 @@ ModuleNotFoundError: No module named 'neural_renderer'
 ```
 pip install chainer
 ```
+2/27/2023 3:13:54 PM:
+```
+pip install typing_extensions
+```
