@@ -84,3 +84,4 @@ Traceback (most recent call last):
     import neural_renderer
 ModuleNotFoundError: No module named 'neural_renderer'
 ```
+2/27/2023 12:13:43 PM: cudnn install: https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html  
