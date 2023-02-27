@@ -87,5 +87,5 @@ ModuleNotFoundError: No module named 'neural_renderer'
 2/27/2023 12:13:43 PM: cudnn install: https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html  
 2/27/2023 3:09:27 PM: try to install chainer with pip
 ```
-pip install chainer
+pip install -y chainer
 ```
