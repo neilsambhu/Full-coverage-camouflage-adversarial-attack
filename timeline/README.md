@@ -93,4 +93,8 @@ pip install chainer
 ```
 pip install typing_extensions
 ```
-2/27/2023 3:20:54 PM: TODO: create anaconda environment from scratch and try again
+2/27/2023 3:20:54 PM: TODO: create anaconda environment from scratch and try again  
+3/1/2023 2:17:30 PM: 
+```
+grep -r --exclude *README.md --exclude outgrep.txt -e "carla">outgrep.txt
+```
